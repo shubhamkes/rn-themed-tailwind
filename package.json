@@ -1,6 +1,6 @@
 {
     "name": "rn-themed-tailwind",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "",
     "main": "index.js",
     "bin": {
@@ -13,9 +13,19 @@
     },
     "author": "Shubham Kesarwani <shubham.kesarwani89@gmail.com>",
     "license": "ISC",
+    "keywords": [
+        "rn-themed-tailwind",
+        "theme-tailwind",
+        "rn-tailwind",
+        "tailwind for react-native",
+        "react-native themes",
+        "themes in react-native",
+        "theme using react context"
+    ],
     "devDependencies": {
         "css": "^2.2.4",
         "css-to-react-native": "^3.0.0",
+        "postcss": "^7.0.32",
         "tailwindcss": "^1.4.6"
     },
     "peerDependencies": {
