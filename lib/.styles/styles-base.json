@@ -20,20 +20,6 @@
 	"border-separate": {
 		"borderCollapse": "separate"
 	},
-	"border-secondaryColor-100": {
-		"--border-opacity": 1,
-		"borderTopColor": "rgba(79, 121, 255, var(--border-opacity))",
-		"borderRightColor": "rgba(79, 121, 255, var(--border-opacity))",
-		"borderBottomColor": "rgba(79, 121, 255, var(--border-opacity))",
-		"borderLeftColor": "rgba(79, 121, 255, var(--border-opacity))"
-	},
-	"border-secondaryColor-200": {
-		"--border-opacity": 1,
-		"borderTopColor": "rgba(1, 135, 134, var(--border-opacity))",
-		"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
-		"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
-		"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
-	},
 	"border-opacity-0": {
 		"--border-opacity": 0
 	},
@@ -2213,26 +2199,6 @@
 	},
 	"text-justify": {
 		"textAlign": "justify"
-	},
-	"text-secondaryColor-100": {
-		"--text-opacity": 1,
-		"color": "rgba(79, 121, 255, var(--text-opacity))"
-	},
-	"text-secondaryColor-200": {
-		"--text-opacity": 1,
-		"color": "rgba(1, 135, 134, var(--text-opacity))"
-	},
-	"text-onBackgroundColor": {
-		"--text-opacity": 1,
-		"color": "rgba(0, 0, 0, var(--text-opacity))"
-	},
-	"text-onSurfaceColor": {
-		"--text-opacity": 1,
-		"color": "rgba(0, 0, 0, var(--text-opacity))"
-	},
-	"text-onSecondaryColor": {
-		"--text-opacity": 1,
-		"color": "rgba(0, 0, 0, var(--text-opacity))"
 	},
 	"text-opacity-0": {
 		"--text-opacity": 0

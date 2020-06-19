@@ -87,11 +87,11 @@ const supportedUtilities = [
 const colorSupportedUtilities = [
     // Background color
     /[p|P]rimaryColor/,
-    /^[s|S]econdaryColor/,
-    /^[b|B]ackgroundColor/,
-    /^[s|S]urfaceColor/,
-    /^[s|S]whiteColor/,
-    /^[s|S]darkColor/,
+    /[s|S]econdaryColor/,
+    /[b|B]ackgroundColor/,
+    /[s|S]urfaceColor/,
+    /whiteColor/,
+    /darkColor/,
 ]
 
 const isUtilitySupported = utility => {
