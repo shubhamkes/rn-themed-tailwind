@@ -1,1 +1,1 @@
-export { ThemeContext, ThemeContextProvider } from './lib/contextProvider';
+export { ThemeContext, ThemeContextProvider, GetStyle, GetColor } from './lib/contextProvider';

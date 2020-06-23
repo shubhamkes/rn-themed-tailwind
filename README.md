@@ -36,11 +36,14 @@ const RootApp = () => {
 }
 
 export default Landing = () => {
-    const { getTheme, changeTheme, theme, getColor } = useContext(ThemeContext);
+
+    // v1.0.3 or earlier version had similar method named getTheme 
+    // getTheme is deprecated in favour of getStyle
+    const { getStyle, changeTheme, theme, getColor } = useContext(ThemeContext);
 
     return (
-        <View style={{ flex: 1, ...getTheme('bg-primaryColor-100') }}>
-            <Text style={getTheme('p-8 m-8')}>Hey</Text>
+        <View style={{ flex: 1, ...getStyle('bg-primaryColor-100') }}>
+            <Text style={getStyle('p-8 m-8')}>Hey</Text>
             <Button title="Change theme" onPress={() => changeTheme({ name: theme == 'dark' ? 'light' : 'dark' })}></Button>
         </View>
     )
@@ -50,13 +53,15 @@ export default Landing = () => {
 
 ### Apis
 
-useContext returns { getTheme, changeTheme, theme, getColor }
+useContext returns { getStyle, changeTheme, theme, getColor }
 
-* getTheme(styles: string) 
+* getStyle(styles: string) 
+* getTheme(style: string) // DEPRECATED, in favour of getStyle
 
 ex
 ```js
-getTheme('p-8 m-8')
+getStyle('p-8 m-8')
+// getTheme('p-8 m-8')
 
 ```
 
