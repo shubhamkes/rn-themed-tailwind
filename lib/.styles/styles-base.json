@@ -20,6 +20,27 @@
 	"border-separate": {
 		"borderCollapse": "separate"
 	},
+	"border-primary": {
+		"--border-opacity": 1,
+		"borderTopColor": "rgba(52, 144, 220, var(--border-opacity))",
+		"borderRightColor": "rgba(52, 144, 220, var(--border-opacity))",
+		"borderBottomColor": "rgba(52, 144, 220, var(--border-opacity))",
+		"borderLeftColor": "rgba(52, 144, 220, var(--border-opacity))"
+	},
+	"border-secondary": {
+		"--border-opacity": 1,
+		"borderTopColor": "rgba(255, 237, 74, var(--border-opacity))",
+		"borderRightColor": "rgba(255, 237, 74, var(--border-opacity))",
+		"borderBottomColor": "rgba(255, 237, 74, var(--border-opacity))",
+		"borderLeftColor": "rgba(255, 237, 74, var(--border-opacity))"
+	},
+	"border-danger": {
+		"--border-opacity": 1,
+		"borderTopColor": "rgba(227, 52, 47, var(--border-opacity))",
+		"borderRightColor": "rgba(227, 52, 47, var(--border-opacity))",
+		"borderBottomColor": "rgba(227, 52, 47, var(--border-opacity))",
+		"borderLeftColor": "rgba(227, 52, 47, var(--border-opacity))"
+	},
 	"border-opacity-0": {
 		"--border-opacity": 0
 	},
