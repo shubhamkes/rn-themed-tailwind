@@ -1,6 +1,6 @@
 {
     "name": "rn-themed-tailwind",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "",
     "main": "index.js",
     "bin": {
@@ -37,6 +37,7 @@
         "tailwindcss": "^1.4.6"
     },
     "peerDependencies": {
+        "@react-native-community/async-storage": "*",
         "react": ">=16.13.1"
     }
 }
