@@ -386,13 +386,17 @@
 			"--text-opacity": 1,
 			"color": "rgba(26, 32, 44, var(--text-opacity))"
 		},
+		"text-onSurfaceColor-100": {
+			"--text-opacity": 1,
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-200": {
+			"--text-opacity": 1,
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
+		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
-			"color": "rgba(249, 170, 51, var(--text-opacity))"
-		},
-		"text-onSurfaceColor": {
-			"--text-opacity": 1,
-			"color": "rgba(255, 255, 255, var(--text-opacity))"
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
 		},
 		"text-onPrimaryColor": {
 			"--text-opacity": 1,
@@ -400,7 +404,7 @@
 		},
 		"text-onSecondaryColor": {
 			"--text-opacity": 1,
-			"color": "rgba(255, 255, 255, var(--text-opacity))"
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
 		},
 		"text-disabledColor": {
 			"color": "rgba(0,0,0,.2)"
@@ -409,10 +413,10 @@
 	"light": {
 		"divide-primaryColor-100 > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
-			"borderTopColor": "rgba(42, 103, 244, var(--divide-opacity))",
-			"borderRightColor": "rgba(42, 103, 244, var(--divide-opacity))",
-			"borderBottomColor": "rgba(42, 103, 244, var(--divide-opacity))",
-			"borderLeftColor": "rgba(42, 103, 244, var(--divide-opacity))"
+			"borderTopColor": "rgba(16, 137, 255, var(--divide-opacity))",
+			"borderRightColor": "rgba(16, 137, 255, var(--divide-opacity))",
+			"borderBottomColor": "rgba(16, 137, 255, var(--divide-opacity))",
+			"borderLeftColor": "rgba(16, 137, 255, var(--divide-opacity))"
 		},
 		"divide-primaryColor-200 > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
@@ -520,7 +524,7 @@
 		},
 		"bg-primaryColor-100": {
 			"--bg-opacity": 1,
-			"backgroundColor": "rgba(42, 103, 244, var(--bg-opacity))"
+			"backgroundColor": "rgba(16, 137, 255, var(--bg-opacity))"
 		},
 		"bg-primaryColor-200": {
 			"--bg-opacity": 1,
@@ -559,10 +563,10 @@
 		},
 		"border-primaryColor-100": {
 			"--border-opacity": 1,
-			"borderTopColor": "rgba(42, 103, 244, var(--border-opacity))",
-			"borderRightColor": "rgba(42, 103, 244, var(--border-opacity))",
-			"borderBottomColor": "rgba(42, 103, 244, var(--border-opacity))",
-			"borderLeftColor": "rgba(42, 103, 244, var(--border-opacity))"
+			"borderTopColor": "rgba(16, 137, 255, var(--border-opacity))",
+			"borderRightColor": "rgba(16, 137, 255, var(--border-opacity))",
+			"borderBottomColor": "rgba(16, 137, 255, var(--border-opacity))",
+			"borderLeftColor": "rgba(16, 137, 255, var(--border-opacity))"
 		},
 		"border-primaryColor-200": {
 			"--border-opacity": 1,
@@ -670,7 +674,7 @@
 		},
 		"placeholder-primaryColor-100::placeholder": {
 			"--placeholder-opacity": 1,
-			"color": "rgba(42, 103, 244, var(--placeholder-opacity))"
+			"color": "rgba(16, 137, 255, var(--placeholder-opacity))"
 		},
 		"placeholder-primaryColor-200::placeholder": {
 			"--placeholder-opacity": 1,
@@ -733,7 +737,7 @@
 		},
 		"text-primaryColor-100": {
 			"--text-opacity": 1,
-			"color": "rgba(42, 103, 244, var(--text-opacity))"
+			"color": "rgba(16, 137, 255, var(--text-opacity))"
 		},
 		"text-primaryColor-200": {
 			"--text-opacity": 1,
@@ -794,13 +798,17 @@
 			"--text-opacity": 1,
 			"color": "rgba(26, 32, 44, var(--text-opacity))"
 		},
+		"text-onSurfaceColor-100": {
+			"--text-opacity": 1,
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-200": {
+			"--text-opacity": 1,
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
+		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
-			"color": "rgba(0, 0, 0, var(--text-opacity))"
-		},
-		"text-onSurfaceColor": {
-			"--text-opacity": 1,
-			"color": "rgba(0, 0, 0, var(--text-opacity))"
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
 		},
 		"text-onPrimaryColor": {
 			"--text-opacity": 1,
@@ -808,7 +816,7 @@
 		},
 		"text-onSecondaryColor": {
 			"--text-opacity": 1,
-			"color": "rgba(0, 0, 0, var(--text-opacity))"
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
 		},
 		"text-disabledColor": {
 			"color": "rgba(0,0,0,.2)"
