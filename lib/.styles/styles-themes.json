@@ -439,6 +439,13 @@
 			"borderBottomColor": "rgba(1, 135, 134, var(--divide-opacity))",
 			"borderLeftColor": "rgba(1, 135, 134, var(--divide-opacity))"
 		},
+		"divide-positiveColor > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(6, 167, 125, var(--divide-opacity))",
+			"borderRightColor": "rgba(6, 167, 125, var(--divide-opacity))",
+			"borderBottomColor": "rgba(6, 167, 125, var(--divide-opacity))",
+			"borderLeftColor": "rgba(6, 167, 125, var(--divide-opacity))"
+		},
 		"divide-transparentColor > :not(template) ~ :not(template)": {
 			"borderTopColor": "transparent",
 			"borderRightColor": "transparent",
@@ -538,6 +545,10 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(1, 135, 134, var(--bg-opacity))"
 		},
+		"bg-positiveColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(6, 167, 125, var(--bg-opacity))"
+		},
 		"bg-transparentColor": {
 			"backgroundColor": "transparent"
 		},
@@ -588,6 +599,13 @@
 			"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
 			"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
 			"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
+		},
+		"border-positiveColor": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(6, 167, 125, var(--border-opacity))",
+			"borderRightColor": "rgba(6, 167, 125, var(--border-opacity))",
+			"borderBottomColor": "rgba(6, 167, 125, var(--border-opacity))",
+			"borderLeftColor": "rgba(6, 167, 125, var(--border-opacity))"
 		},
 		"border-transparentColor": {
 			"borderTopColor": "transparent",
@@ -688,6 +706,10 @@
 			"--placeholder-opacity": 1,
 			"color": "rgba(1, 135, 134, var(--placeholder-opacity))"
 		},
+		"placeholder-positiveColor::placeholder": {
+			"--placeholder-opacity": 1,
+			"color": "rgba(6, 167, 125, var(--placeholder-opacity))"
+		},
 		"placeholder-transparentColor::placeholder": {
 			"color": "transparent"
 		},
@@ -750,6 +772,10 @@
 		"text-secondaryColor-200": {
 			"--text-opacity": 1,
 			"color": "rgba(1, 135, 134, var(--text-opacity))"
+		},
+		"text-positiveColor": {
+			"--text-opacity": 1,
+			"color": "rgba(6, 167, 125, var(--text-opacity))"
 		},
 		"text-transparentColor": {
 			"color": "transparent"
