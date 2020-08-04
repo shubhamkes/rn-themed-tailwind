@@ -490,10 +490,10 @@
 	"font-normal": {
 		"fontWeight": "400"
 	},
-	"font-medium": {
+	"font-semibold": {
 		"fontWeight": "500"
 	},
-	"font-semibold": {
+	"font-bold": {
 		"fontWeight": "600"
 	},
 	"h-0": {
@@ -2218,23 +2218,26 @@
 	"normal-case": {
 		"textTransform": "none"
 	},
+	"tracking-tightest": {
+		"letterSpacing": -0.75
+	},
 	"tracking-tighter": {
-		"letterSpacing": "-0.05em"
+		"letterSpacing": -0.5
 	},
 	"tracking-tight": {
-		"letterSpacing": "-0.025em"
+		"letterSpacing": -0.25
 	},
 	"tracking-normal": {
 		"letterSpacing": 0
 	},
 	"tracking-wide": {
-		"letterSpacing": "0.025em"
+		"letterSpacing": 1.5
 	},
 	"tracking-wider": {
-		"letterSpacing": "0.05em"
+		"letterSpacing": 2
 	},
 	"tracking-widest": {
-		"letterSpacing": "0.1em"
+		"letterSpacing": 2.5
 	},
 	"w-0": {
 		"width": 0

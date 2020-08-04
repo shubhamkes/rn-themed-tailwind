@@ -388,11 +388,11 @@
 		},
 		"text-onSurfaceColor-100": {
 			"--text-opacity": 1,
-			"color": "rgba(33, 65, 104, var(--text-opacity))"
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
 		},
 		"text-onSurfaceColor-200": {
 			"--text-opacity": 1,
-			"color": "rgba(116, 136, 152, var(--text-opacity))"
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
 		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
@@ -826,11 +826,11 @@
 		},
 		"text-onSurfaceColor-100": {
 			"--text-opacity": 1,
-			"color": "rgba(33, 65, 104, var(--text-opacity))"
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
 		},
 		"text-onSurfaceColor-200": {
 			"--text-opacity": 1,
-			"color": "rgba(116, 136, 152, var(--text-opacity))"
+			"color": "rgba(33, 65, 104, var(--text-opacity))"
 		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
