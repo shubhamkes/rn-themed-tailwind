@@ -20,7 +20,7 @@ const source = `
 
 const tailwinds = {};
 const themeFilesDirectory = __dirname + '/lib/themes';
-const styleFilesDirectory = __dirname + '/lib/.styles';
+const styleFilesDirectory = __dirname + '/lib/temp-styles';
 
 if (!fs.existsSync(styleFilesDirectory)) {
     fs.mkdirSync(styleFilesDirectory);
