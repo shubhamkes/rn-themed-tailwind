@@ -20,13 +20,6 @@
 	"border-separate": {
 		"borderCollapse": "separate"
 	},
-	"border-negative": {
-		"--border-opacity": 1,
-		"borderTopColor": "rgba(230, 57, 70, var(--border-opacity))",
-		"borderRightColor": "rgba(230, 57, 70, var(--border-opacity))",
-		"borderBottomColor": "rgba(230, 57, 70, var(--border-opacity))",
-		"borderLeftColor": "rgba(230, 57, 70, var(--border-opacity))"
-	},
 	"border-warn": {
 		"--border-opacity": 1,
 		"borderTopColor": "rgba(244, 165, 72, var(--border-opacity))",
@@ -2184,10 +2177,6 @@
 	},
 	"text-justify": {
 		"textAlign": "justify"
-	},
-	"text-negative": {
-		"--text-opacity": 1,
-		"color": "rgba(230, 57, 70, var(--text-opacity))"
 	},
 	"text-warn": {
 		"--text-opacity": 1,
