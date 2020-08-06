@@ -20,26 +20,26 @@
 	"border-separate": {
 		"borderCollapse": "separate"
 	},
-	"border-primary": {
+	"border-negative": {
 		"--border-opacity": 1,
-		"borderTopColor": "rgba(52, 144, 220, var(--border-opacity))",
-		"borderRightColor": "rgba(52, 144, 220, var(--border-opacity))",
-		"borderBottomColor": "rgba(52, 144, 220, var(--border-opacity))",
-		"borderLeftColor": "rgba(52, 144, 220, var(--border-opacity))"
+		"borderTopColor": "rgba(230, 57, 70, var(--border-opacity))",
+		"borderRightColor": "rgba(230, 57, 70, var(--border-opacity))",
+		"borderBottomColor": "rgba(230, 57, 70, var(--border-opacity))",
+		"borderLeftColor": "rgba(230, 57, 70, var(--border-opacity))"
 	},
-	"border-secondary": {
+	"border-warn": {
 		"--border-opacity": 1,
-		"borderTopColor": "rgba(255, 237, 74, var(--border-opacity))",
-		"borderRightColor": "rgba(255, 237, 74, var(--border-opacity))",
-		"borderBottomColor": "rgba(255, 237, 74, var(--border-opacity))",
-		"borderLeftColor": "rgba(255, 237, 74, var(--border-opacity))"
+		"borderTopColor": "rgba(244, 165, 72, var(--border-opacity))",
+		"borderRightColor": "rgba(244, 165, 72, var(--border-opacity))",
+		"borderBottomColor": "rgba(244, 165, 72, var(--border-opacity))",
+		"borderLeftColor": "rgba(244, 165, 72, var(--border-opacity))"
 	},
-	"border-danger": {
+	"border-yellow": {
 		"--border-opacity": 1,
-		"borderTopColor": "rgba(227, 52, 47, var(--border-opacity))",
-		"borderRightColor": "rgba(227, 52, 47, var(--border-opacity))",
-		"borderBottomColor": "rgba(227, 52, 47, var(--border-opacity))",
-		"borderLeftColor": "rgba(227, 52, 47, var(--border-opacity))"
+		"borderTopColor": "rgba(238, 194, 0, var(--border-opacity))",
+		"borderRightColor": "rgba(238, 194, 0, var(--border-opacity))",
+		"borderBottomColor": "rgba(238, 194, 0, var(--border-opacity))",
+		"borderLeftColor": "rgba(238, 194, 0, var(--border-opacity))"
 	},
 	"border-opacity-0": {
 		"--border-opacity": 0
@@ -2184,6 +2184,18 @@
 	},
 	"text-justify": {
 		"textAlign": "justify"
+	},
+	"text-negative": {
+		"--text-opacity": 1,
+		"color": "rgba(230, 57, 70, var(--text-opacity))"
+	},
+	"text-warn": {
+		"--text-opacity": 1,
+		"color": "rgba(244, 165, 72, var(--text-opacity))"
+	},
+	"text-yellow": {
+		"--text-opacity": 1,
+		"color": "rgba(238, 194, 0, var(--text-opacity))"
 	},
 	"text-opacity-0": {
 		"--text-opacity": 0
