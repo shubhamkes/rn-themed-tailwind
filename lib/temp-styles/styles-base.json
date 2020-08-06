@@ -550,16 +550,16 @@
 		"height": "100%"
 	},
 	"text-sm": {
-		"fontSize": 10
-	},
-	"text-base": {
 		"fontSize": 12
 	},
-	"text-lg": {
+	"text-base": {
 		"fontSize": 14
 	},
-	"text-xl": {
+	"text-lg": {
 		"fontSize": 16
+	},
+	"text-xl": {
+		"fontSize": 18
 	},
 	"leading-3": {
 		"lineHeight": 12
