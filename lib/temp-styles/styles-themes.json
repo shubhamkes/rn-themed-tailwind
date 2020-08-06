@@ -714,19 +714,68 @@
 		}
 	},
 	"light": {
-		"divide-primaryColor > :not(template) ~ :not(template)": {
+		"divide-primaryColor-100 > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
-			"borderTopColor": "rgba(52, 144, 220, var(--divide-opacity))",
-			"borderRightColor": "rgba(52, 144, 220, var(--divide-opacity))",
-			"borderBottomColor": "rgba(52, 144, 220, var(--divide-opacity))",
-			"borderLeftColor": "rgba(52, 144, 220, var(--divide-opacity))"
+			"borderTopColor": "rgba(184, 229, 255, var(--divide-opacity))",
+			"borderRightColor": "rgba(184, 229, 255, var(--divide-opacity))",
+			"borderBottomColor": "rgba(184, 229, 255, var(--divide-opacity))",
+			"borderLeftColor": "rgba(184, 229, 255, var(--divide-opacity))"
 		},
-		"divide-secondaryColor > :not(template) ~ :not(template)": {
+		"divide-primaryColor-200 > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 237, 74, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 237, 74, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 237, 74, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 237, 74, var(--divide-opacity))"
+			"borderTopColor": "rgba(138, 209, 255, var(--divide-opacity))",
+			"borderRightColor": "rgba(138, 209, 255, var(--divide-opacity))",
+			"borderBottomColor": "rgba(138, 209, 255, var(--divide-opacity))",
+			"borderLeftColor": "rgba(138, 209, 255, var(--divide-opacity))"
+		},
+		"divide-primaryColor-300 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(92, 187, 255, var(--divide-opacity))",
+			"borderRightColor": "rgba(92, 187, 255, var(--divide-opacity))",
+			"borderBottomColor": "rgba(92, 187, 255, var(--divide-opacity))",
+			"borderLeftColor": "rgba(92, 187, 255, var(--divide-opacity))"
+		},
+		"divide-primaryColor-400 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(52, 163, 255, var(--divide-opacity))",
+			"borderRightColor": "rgba(52, 163, 255, var(--divide-opacity))",
+			"borderBottomColor": "rgba(52, 163, 255, var(--divide-opacity))",
+			"borderLeftColor": "rgba(52, 163, 255, var(--divide-opacity))"
+		},
+		"divide-primaryColor-500 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(16, 137, 255, var(--divide-opacity))",
+			"borderRightColor": "rgba(16, 137, 255, var(--divide-opacity))",
+			"borderBottomColor": "rgba(16, 137, 255, var(--divide-opacity))",
+			"borderLeftColor": "rgba(16, 137, 255, var(--divide-opacity))"
+		},
+		"divide-primaryColor-600 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(0, 116, 224, var(--divide-opacity))",
+			"borderRightColor": "rgba(0, 116, 224, var(--divide-opacity))",
+			"borderBottomColor": "rgba(0, 116, 224, var(--divide-opacity))",
+			"borderLeftColor": "rgba(0, 116, 224, var(--divide-opacity))"
+		},
+		"divide-primaryColor-700 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(0, 96, 193, var(--divide-opacity))",
+			"borderRightColor": "rgba(0, 96, 193, var(--divide-opacity))",
+			"borderBottomColor": "rgba(0, 96, 193, var(--divide-opacity))",
+			"borderLeftColor": "rgba(0, 96, 193, var(--divide-opacity))"
+		},
+		"divide-secondaryColor-100 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(1, 135, 134, var(--divide-opacity))",
+			"borderRightColor": "rgba(1, 135, 134, var(--divide-opacity))",
+			"borderBottomColor": "rgba(1, 135, 134, var(--divide-opacity))",
+			"borderLeftColor": "rgba(1, 135, 134, var(--divide-opacity))"
+		},
+		"divide-secondaryColor-200 > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(1, 135, 134, var(--divide-opacity))",
+			"borderRightColor": "rgba(1, 135, 134, var(--divide-opacity))",
+			"borderBottomColor": "rgba(1, 135, 134, var(--divide-opacity))",
+			"borderLeftColor": "rgba(1, 135, 134, var(--divide-opacity))"
 		},
 		"divide-surfaceColor-white > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
@@ -797,6 +846,27 @@
 			"borderRightColor": "rgba(6, 167, 125, var(--divide-opacity))",
 			"borderBottomColor": "rgba(6, 167, 125, var(--divide-opacity))",
 			"borderLeftColor": "rgba(6, 167, 125, var(--divide-opacity))"
+		},
+		"divide-negativeColor > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(230, 57, 70, var(--divide-opacity))",
+			"borderRightColor": "rgba(230, 57, 70, var(--divide-opacity))",
+			"borderBottomColor": "rgba(230, 57, 70, var(--divide-opacity))",
+			"borderLeftColor": "rgba(230, 57, 70, var(--divide-opacity))"
+		},
+		"divide-warnColor > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(244, 165, 72, var(--divide-opacity))",
+			"borderRightColor": "rgba(244, 165, 72, var(--divide-opacity))",
+			"borderBottomColor": "rgba(244, 165, 72, var(--divide-opacity))",
+			"borderLeftColor": "rgba(244, 165, 72, var(--divide-opacity))"
+		},
+		"divide-yellowColor > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(238, 194, 0, var(--divide-opacity))",
+			"borderRightColor": "rgba(238, 194, 0, var(--divide-opacity))",
+			"borderBottomColor": "rgba(238, 194, 0, var(--divide-opacity))",
+			"borderLeftColor": "rgba(238, 194, 0, var(--divide-opacity))"
 		},
 		"divide-transparentColor > :not(template) ~ :not(template)": {
 			"borderTopColor": "transparent",
@@ -881,13 +951,6 @@
 			"borderBottomColor": "rgba(26, 32, 44, var(--divide-opacity))",
 			"borderLeftColor": "rgba(26, 32, 44, var(--divide-opacity))"
 		},
-		"divide-dangerColor > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(227, 52, 47, var(--divide-opacity))",
-			"borderRightColor": "rgba(227, 52, 47, var(--divide-opacity))",
-			"borderBottomColor": "rgba(227, 52, 47, var(--divide-opacity))",
-			"borderLeftColor": "rgba(227, 52, 47, var(--divide-opacity))"
-		},
 		"bg-primaryColor-100": {
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(184, 229, 255, var(--bg-opacity))"
@@ -964,6 +1027,18 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(6, 167, 125, var(--bg-opacity))"
 		},
+		"bg-negativeColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(230, 57, 70, var(--bg-opacity))"
+		},
+		"bg-warnColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(244, 165, 72, var(--bg-opacity))"
+		},
+		"bg-yellowColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(238, 194, 0, var(--bg-opacity))"
+		},
 		"bg-transparentColor": {
 			"backgroundColor": "transparent"
 		},
@@ -983,19 +1058,68 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(0, 0, 0, var(--bg-opacity))"
 		},
-		"border-primaryColor": {
+		"border-primaryColor-100": {
 			"--border-opacity": 1,
-			"borderTopColor": "rgba(52, 144, 220, var(--border-opacity))",
-			"borderRightColor": "rgba(52, 144, 220, var(--border-opacity))",
-			"borderBottomColor": "rgba(52, 144, 220, var(--border-opacity))",
-			"borderLeftColor": "rgba(52, 144, 220, var(--border-opacity))"
+			"borderTopColor": "rgba(184, 229, 255, var(--border-opacity))",
+			"borderRightColor": "rgba(184, 229, 255, var(--border-opacity))",
+			"borderBottomColor": "rgba(184, 229, 255, var(--border-opacity))",
+			"borderLeftColor": "rgba(184, 229, 255, var(--border-opacity))"
 		},
-		"border-secondaryColor": {
+		"border-primaryColor-200": {
 			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 237, 74, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 237, 74, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 237, 74, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 237, 74, var(--border-opacity))"
+			"borderTopColor": "rgba(138, 209, 255, var(--border-opacity))",
+			"borderRightColor": "rgba(138, 209, 255, var(--border-opacity))",
+			"borderBottomColor": "rgba(138, 209, 255, var(--border-opacity))",
+			"borderLeftColor": "rgba(138, 209, 255, var(--border-opacity))"
+		},
+		"border-primaryColor-300": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(92, 187, 255, var(--border-opacity))",
+			"borderRightColor": "rgba(92, 187, 255, var(--border-opacity))",
+			"borderBottomColor": "rgba(92, 187, 255, var(--border-opacity))",
+			"borderLeftColor": "rgba(92, 187, 255, var(--border-opacity))"
+		},
+		"border-primaryColor-400": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(52, 163, 255, var(--border-opacity))",
+			"borderRightColor": "rgba(52, 163, 255, var(--border-opacity))",
+			"borderBottomColor": "rgba(52, 163, 255, var(--border-opacity))",
+			"borderLeftColor": "rgba(52, 163, 255, var(--border-opacity))"
+		},
+		"border-primaryColor-500": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(16, 137, 255, var(--border-opacity))",
+			"borderRightColor": "rgba(16, 137, 255, var(--border-opacity))",
+			"borderBottomColor": "rgba(16, 137, 255, var(--border-opacity))",
+			"borderLeftColor": "rgba(16, 137, 255, var(--border-opacity))"
+		},
+		"border-primaryColor-600": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(0, 116, 224, var(--border-opacity))",
+			"borderRightColor": "rgba(0, 116, 224, var(--border-opacity))",
+			"borderBottomColor": "rgba(0, 116, 224, var(--border-opacity))",
+			"borderLeftColor": "rgba(0, 116, 224, var(--border-opacity))"
+		},
+		"border-primaryColor-700": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(0, 96, 193, var(--border-opacity))",
+			"borderRightColor": "rgba(0, 96, 193, var(--border-opacity))",
+			"borderBottomColor": "rgba(0, 96, 193, var(--border-opacity))",
+			"borderLeftColor": "rgba(0, 96, 193, var(--border-opacity))"
+		},
+		"border-secondaryColor-100": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(1, 135, 134, var(--border-opacity))",
+			"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
+			"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
+			"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
+		},
+		"border-secondaryColor-200": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(1, 135, 134, var(--border-opacity))",
+			"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
+			"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
+			"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
 		},
 		"border-surfaceColor-white": {
 			"--border-opacity": 1,
@@ -1066,6 +1190,27 @@
 			"borderRightColor": "rgba(6, 167, 125, var(--border-opacity))",
 			"borderBottomColor": "rgba(6, 167, 125, var(--border-opacity))",
 			"borderLeftColor": "rgba(6, 167, 125, var(--border-opacity))"
+		},
+		"border-negativeColor": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(230, 57, 70, var(--border-opacity))",
+			"borderRightColor": "rgba(230, 57, 70, var(--border-opacity))",
+			"borderBottomColor": "rgba(230, 57, 70, var(--border-opacity))",
+			"borderLeftColor": "rgba(230, 57, 70, var(--border-opacity))"
+		},
+		"border-warnColor": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(244, 165, 72, var(--border-opacity))",
+			"borderRightColor": "rgba(244, 165, 72, var(--border-opacity))",
+			"borderBottomColor": "rgba(244, 165, 72, var(--border-opacity))",
+			"borderLeftColor": "rgba(244, 165, 72, var(--border-opacity))"
+		},
+		"border-yellowColor": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(238, 194, 0, var(--border-opacity))",
+			"borderRightColor": "rgba(238, 194, 0, var(--border-opacity))",
+			"borderBottomColor": "rgba(238, 194, 0, var(--border-opacity))",
+			"borderLeftColor": "rgba(238, 194, 0, var(--border-opacity))"
 		},
 		"border-transparentColor": {
 			"borderTopColor": "transparent",
@@ -1150,13 +1295,6 @@
 			"borderBottomColor": "rgba(26, 32, 44, var(--border-opacity))",
 			"borderLeftColor": "rgba(26, 32, 44, var(--border-opacity))"
 		},
-		"border-dangerColor": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(227, 52, 47, var(--border-opacity))",
-			"borderRightColor": "rgba(227, 52, 47, var(--border-opacity))",
-			"borderBottomColor": "rgba(227, 52, 47, var(--border-opacity))",
-			"borderLeftColor": "rgba(227, 52, 47, var(--border-opacity))"
-		},
 		"placeholder-primaryColor-100::placeholder": {
 			"--placeholder-opacity": 1,
 			"color": "rgba(184, 229, 255, var(--placeholder-opacity))"
@@ -1232,6 +1370,18 @@
 		"placeholder-positiveColor::placeholder": {
 			"--placeholder-opacity": 1,
 			"color": "rgba(6, 167, 125, var(--placeholder-opacity))"
+		},
+		"placeholder-negativeColor::placeholder": {
+			"--placeholder-opacity": 1,
+			"color": "rgba(230, 57, 70, var(--placeholder-opacity))"
+		},
+		"placeholder-warnColor::placeholder": {
+			"--placeholder-opacity": 1,
+			"color": "rgba(244, 165, 72, var(--placeholder-opacity))"
+		},
+		"placeholder-yellowColor::placeholder": {
+			"--placeholder-opacity": 1,
+			"color": "rgba(238, 194, 0, var(--placeholder-opacity))"
 		},
 		"placeholder-transparentColor::placeholder": {
 			"color": "transparent"
@@ -1355,6 +1505,18 @@
 		"text-positiveColor": {
 			"--text-opacity": 1,
 			"color": "rgba(6, 167, 125, var(--text-opacity))"
+		},
+		"text-negativeColor": {
+			"--text-opacity": 1,
+			"color": "rgba(230, 57, 70, var(--text-opacity))"
+		},
+		"text-warnColor": {
+			"--text-opacity": 1,
+			"color": "rgba(244, 165, 72, var(--text-opacity))"
+		},
+		"text-yellowColor": {
+			"--text-opacity": 1,
+			"color": "rgba(238, 194, 0, var(--text-opacity))"
 		},
 		"text-transparentColor": {
 			"color": "transparent"
