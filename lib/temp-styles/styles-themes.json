@@ -1591,13 +1591,40 @@
 			"--text-opacity": 1,
 			"color": "rgba(26, 32, 44, var(--text-opacity))"
 		},
-		"text-onSurfaceColor-100": {
+		"text-onSurfaceColor-white": {
 			"--text-opacity": 1,
 			"color": "rgba(116, 136, 152, var(--text-opacity))"
 		},
-		"text-onSurfaceColor-200": {
+		"text-onSurfaceColor-teal": {
 			"--text-opacity": 1,
-			"color": "rgba(33, 65, 104, var(--text-opacity))"
+			"color": "rgba(38, 166, 154, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-red": {
+			"color": "ef5350"
+		},
+		"text-onSurfaceColor-cyan": {
+			"--text-opacity": 1,
+			"color": "rgba(38, 198, 218, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-blue": {
+			"--text-opacity": 1,
+			"color": "rgba(66, 165, 245, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-green": {
+			"--text-opacity": 1,
+			"color": "rgba(102, 187, 106, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-lime": {
+			"--text-opacity": 1,
+			"color": "rgba(212, 225, 87, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-orange": {
+			"--text-opacity": 1,
+			"color": "rgba(255, 167, 38, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-yellow": {
+			"--text-opacity": 1,
+			"color": "rgba(255, 238, 88, var(--text-opacity))"
 		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
