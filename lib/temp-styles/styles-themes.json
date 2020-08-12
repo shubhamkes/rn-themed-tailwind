@@ -1600,7 +1600,8 @@
 			"color": "rgba(38, 166, 154, var(--text-opacity))"
 		},
 		"text-onSurfaceColor-red": {
-			"color": "ef5350"
+			"--text-opacity": 1,
+			"color": "rgba(239, 83, 80, var(--text-opacity))"
 		},
 		"text-onSurfaceColor-cyan": {
 			"--text-opacity": 1,
