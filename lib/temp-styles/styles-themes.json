@@ -14,69 +14,6 @@
 			"borderBottomColor": "rgba(255, 237, 74, var(--divide-opacity))",
 			"borderLeftColor": "rgba(255, 237, 74, var(--divide-opacity))"
 		},
-		"divide-surfaceColor-white > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 255, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 255, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 255, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 255, 255, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-teal > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(224, 242, 241, var(--divide-opacity))",
-			"borderRightColor": "rgba(224, 242, 241, var(--divide-opacity))",
-			"borderBottomColor": "rgba(224, 242, 241, var(--divide-opacity))",
-			"borderLeftColor": "rgba(224, 242, 241, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-red > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 235, 238, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 235, 238, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 235, 238, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 235, 238, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-cyan > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(224, 247, 250, var(--divide-opacity))",
-			"borderRightColor": "rgba(224, 247, 250, var(--divide-opacity))",
-			"borderBottomColor": "rgba(224, 247, 250, var(--divide-opacity))",
-			"borderLeftColor": "rgba(224, 247, 250, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-blue > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(227, 242, 253, var(--divide-opacity))",
-			"borderRightColor": "rgba(227, 242, 253, var(--divide-opacity))",
-			"borderBottomColor": "rgba(227, 242, 253, var(--divide-opacity))",
-			"borderLeftColor": "rgba(227, 242, 253, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-green > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(233, 244, 244, var(--divide-opacity))",
-			"borderRightColor": "rgba(233, 244, 244, var(--divide-opacity))",
-			"borderBottomColor": "rgba(233, 244, 244, var(--divide-opacity))",
-			"borderLeftColor": "rgba(233, 244, 244, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-lime > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(249, 251, 231, var(--divide-opacity))",
-			"borderRightColor": "rgba(249, 251, 231, var(--divide-opacity))",
-			"borderBottomColor": "rgba(249, 251, 231, var(--divide-opacity))",
-			"borderLeftColor": "rgba(249, 251, 231, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-orange > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 243, 224, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 243, 224, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 243, 224, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 243, 224, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-yellow > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 253, 231, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 253, 231, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 253, 231, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 253, 231, var(--divide-opacity))"
-		},
 		"divide-positiveColor > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
 			"borderTopColor": "rgba(6, 167, 125, var(--divide-opacity))",
@@ -217,6 +154,29 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(3, 218, 198, var(--bg-opacity))"
 		},
+		"bg-positiveColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(6, 167, 125, var(--bg-opacity))"
+		},
+		"bg-negativeColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(230, 57, 70, var(--bg-opacity))"
+		},
+		"bg-transparentColor": {
+			"backgroundColor": "transparent"
+		},
+		"bg-blackColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(0, 0, 0, var(--bg-opacity))"
+		},
+		"bg-whiteColor": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(255, 255, 255, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-primary": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(74, 85, 104, var(--bg-opacity))"
+		},
 		"bg-surfaceColor-white": {
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(255, 255, 255, var(--bg-opacity))"
@@ -253,25 +213,6 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(255, 253, 231, var(--bg-opacity))"
 		},
-		"bg-positiveColor": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(6, 167, 125, var(--bg-opacity))"
-		},
-		"bg-negativeColor": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(230, 57, 70, var(--bg-opacity))"
-		},
-		"bg-transparentColor": {
-			"backgroundColor": "transparent"
-		},
-		"bg-blackColor": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(0, 0, 0, var(--bg-opacity))"
-		},
-		"bg-whiteColor": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(255, 255, 255, var(--bg-opacity))"
-		},
 		"bg-disabledColor": {
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(221, 226, 232, var(--bg-opacity))"
@@ -297,69 +238,6 @@
 			"borderRightColor": "rgba(255, 237, 74, var(--border-opacity))",
 			"borderBottomColor": "rgba(255, 237, 74, var(--border-opacity))",
 			"borderLeftColor": "rgba(255, 237, 74, var(--border-opacity))"
-		},
-		"border-surfaceColor-white": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 255, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 255, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 255, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 255, 255, var(--border-opacity))"
-		},
-		"border-surfaceColor-teal": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(224, 242, 241, var(--border-opacity))",
-			"borderRightColor": "rgba(224, 242, 241, var(--border-opacity))",
-			"borderBottomColor": "rgba(224, 242, 241, var(--border-opacity))",
-			"borderLeftColor": "rgba(224, 242, 241, var(--border-opacity))"
-		},
-		"border-surfaceColor-red": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 235, 238, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 235, 238, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 235, 238, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 235, 238, var(--border-opacity))"
-		},
-		"border-surfaceColor-cyan": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(224, 247, 250, var(--border-opacity))",
-			"borderRightColor": "rgba(224, 247, 250, var(--border-opacity))",
-			"borderBottomColor": "rgba(224, 247, 250, var(--border-opacity))",
-			"borderLeftColor": "rgba(224, 247, 250, var(--border-opacity))"
-		},
-		"border-surfaceColor-blue": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(227, 242, 253, var(--border-opacity))",
-			"borderRightColor": "rgba(227, 242, 253, var(--border-opacity))",
-			"borderBottomColor": "rgba(227, 242, 253, var(--border-opacity))",
-			"borderLeftColor": "rgba(227, 242, 253, var(--border-opacity))"
-		},
-		"border-surfaceColor-green": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(233, 244, 244, var(--border-opacity))",
-			"borderRightColor": "rgba(233, 244, 244, var(--border-opacity))",
-			"borderBottomColor": "rgba(233, 244, 244, var(--border-opacity))",
-			"borderLeftColor": "rgba(233, 244, 244, var(--border-opacity))"
-		},
-		"border-surfaceColor-lime": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(249, 251, 231, var(--border-opacity))",
-			"borderRightColor": "rgba(249, 251, 231, var(--border-opacity))",
-			"borderBottomColor": "rgba(249, 251, 231, var(--border-opacity))",
-			"borderLeftColor": "rgba(249, 251, 231, var(--border-opacity))"
-		},
-		"border-surfaceColor-orange": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 243, 224, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 243, 224, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 243, 224, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 243, 224, var(--border-opacity))"
-		},
-		"border-surfaceColor-yellow": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 253, 231, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 253, 231, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 253, 231, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 253, 231, var(--border-opacity))"
 		},
 		"border-positiveColor": {
 			"--border-opacity": 1,
@@ -501,42 +379,6 @@
 			"--placeholder-opacity": 1,
 			"color": "rgba(3, 218, 198, var(--placeholder-opacity))"
 		},
-		"placeholder-surfaceColor-white::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 255, 255, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-teal::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(224, 242, 241, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-red::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 235, 238, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-cyan::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(224, 247, 250, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-blue::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(227, 242, 253, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-green::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(233, 244, 244, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-lime::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(249, 251, 231, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-orange::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 243, 224, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-yellow::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 253, 231, var(--placeholder-opacity))"
-		},
 		"placeholder-positiveColor::placeholder": {
 			"--placeholder-opacity": 1,
 			"color": "rgba(6, 167, 125, var(--placeholder-opacity))"
@@ -628,42 +470,6 @@
 			"--text-opacity": 1,
 			"color": "rgba(3, 218, 198, var(--text-opacity))"
 		},
-		"text-surfaceColor-white": {
-			"--text-opacity": 1,
-			"color": "rgba(116, 136, 152, var(--text-opacity))"
-		},
-		"text-surfaceColor-teal": {
-			"--text-opacity": 1,
-			"color": "rgba(38, 166, 154, var(--text-opacity))"
-		},
-		"text-surfaceColor-red": {
-			"--text-opacity": 1,
-			"color": "rgba(239, 83, 80, var(--text-opacity))"
-		},
-		"text-surfaceColor-cyan": {
-			"--text-opacity": 1,
-			"color": "rgba(38, 198, 218, var(--text-opacity))"
-		},
-		"text-surfaceColor-blue": {
-			"--text-opacity": 1,
-			"color": "rgba(66, 165, 245, var(--text-opacity))"
-		},
-		"text-surfaceColor-green": {
-			"--text-opacity": 1,
-			"color": "rgba(102, 187, 106, var(--text-opacity))"
-		},
-		"text-surfaceColor-lime": {
-			"--text-opacity": 1,
-			"color": "rgba(212, 225, 87, var(--text-opacity))"
-		},
-		"text-surfaceColor-orange": {
-			"--text-opacity": 1,
-			"color": "rgba(255, 167, 38, var(--text-opacity))"
-		},
-		"text-surfaceColor-yellow": {
-			"--text-opacity": 1,
-			"color": "rgba(255, 238, 88, var(--text-opacity))"
-		},
 		"text-positiveColor": {
 			"--text-opacity": 1,
 			"color": "rgba(6, 167, 125, var(--text-opacity))"
@@ -729,6 +535,46 @@
 		"text-onSurfaceColor-200": {
 			"--text-opacity": 1,
 			"color": "rgba(33, 65, 104, var(--text-opacity))"
+		},
+		"text-surfaceColor-primary": {
+			"--text-opacity": 1,
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
+		},
+		"text-surfaceColor-white": {
+			"--text-opacity": 1,
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
+		},
+		"text-surfaceColor-teal": {
+			"--text-opacity": 1,
+			"color": "rgba(38, 166, 154, var(--text-opacity))"
+		},
+		"text-surfaceColor-red": {
+			"--text-opacity": 1,
+			"color": "rgba(239, 83, 80, var(--text-opacity))"
+		},
+		"text-surfaceColor-cyan": {
+			"--text-opacity": 1,
+			"color": "rgba(38, 198, 218, var(--text-opacity))"
+		},
+		"text-surfaceColor-blue": {
+			"--text-opacity": 1,
+			"color": "rgba(66, 165, 245, var(--text-opacity))"
+		},
+		"text-surfaceColor-green": {
+			"--text-opacity": 1,
+			"color": "rgba(102, 187, 106, var(--text-opacity))"
+		},
+		"text-surfaceColor-lime": {
+			"--text-opacity": 1,
+			"color": "rgba(212, 225, 87, var(--text-opacity))"
+		},
+		"text-surfaceColor-orange": {
+			"--text-opacity": 1,
+			"color": "rgba(255, 167, 38, var(--text-opacity))"
+		},
+		"text-surfaceColor-yellow": {
+			"--text-opacity": 1,
+			"color": "rgba(255, 238, 88, var(--text-opacity))"
 		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
@@ -806,69 +652,6 @@
 			"borderRightColor": "rgba(1, 135, 134, var(--divide-opacity))",
 			"borderBottomColor": "rgba(1, 135, 134, var(--divide-opacity))",
 			"borderLeftColor": "rgba(1, 135, 134, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-white > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 255, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 255, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 255, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 255, 255, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-teal > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(224, 242, 241, var(--divide-opacity))",
-			"borderRightColor": "rgba(224, 242, 241, var(--divide-opacity))",
-			"borderBottomColor": "rgba(224, 242, 241, var(--divide-opacity))",
-			"borderLeftColor": "rgba(224, 242, 241, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-red > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 235, 238, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 235, 238, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 235, 238, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 235, 238, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-cyan > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(224, 247, 250, var(--divide-opacity))",
-			"borderRightColor": "rgba(224, 247, 250, var(--divide-opacity))",
-			"borderBottomColor": "rgba(224, 247, 250, var(--divide-opacity))",
-			"borderLeftColor": "rgba(224, 247, 250, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-blue > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(227, 242, 253, var(--divide-opacity))",
-			"borderRightColor": "rgba(227, 242, 253, var(--divide-opacity))",
-			"borderBottomColor": "rgba(227, 242, 253, var(--divide-opacity))",
-			"borderLeftColor": "rgba(227, 242, 253, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-green > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(233, 244, 244, var(--divide-opacity))",
-			"borderRightColor": "rgba(233, 244, 244, var(--divide-opacity))",
-			"borderBottomColor": "rgba(233, 244, 244, var(--divide-opacity))",
-			"borderLeftColor": "rgba(233, 244, 244, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-lime > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(249, 251, 231, var(--divide-opacity))",
-			"borderRightColor": "rgba(249, 251, 231, var(--divide-opacity))",
-			"borderBottomColor": "rgba(249, 251, 231, var(--divide-opacity))",
-			"borderLeftColor": "rgba(249, 251, 231, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-orange > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 243, 224, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 243, 224, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 243, 224, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 243, 224, var(--divide-opacity))"
-		},
-		"divide-surfaceColor-yellow > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(255, 253, 231, var(--divide-opacity))",
-			"borderRightColor": "rgba(255, 253, 231, var(--divide-opacity))",
-			"borderBottomColor": "rgba(255, 253, 231, var(--divide-opacity))",
-			"borderLeftColor": "rgba(255, 253, 231, var(--divide-opacity))"
 		},
 		"divide-positiveColor > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
@@ -1017,42 +800,6 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(1, 135, 134, var(--bg-opacity))"
 		},
-		"bg-surfaceColor-white": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(255, 255, 255, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-teal": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(224, 242, 241, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-red": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(255, 235, 238, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-cyan": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(224, 247, 250, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-blue": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(227, 242, 253, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-green": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(233, 244, 244, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-lime": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(249, 251, 231, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-orange": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(255, 243, 224, var(--bg-opacity))"
-		},
-		"bg-surfaceColor-yellow": {
-			"--bg-opacity": 1,
-			"backgroundColor": "rgba(255, 253, 231, var(--bg-opacity))"
-		},
 		"bg-positiveColor": {
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(6, 167, 125, var(--bg-opacity))"
@@ -1091,6 +838,46 @@
 		"bg-darkColor": {
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(0, 0, 0, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-primary": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(255, 255, 255, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-white": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(255, 255, 255, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-teal": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(224, 242, 241, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-red": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(255, 235, 238, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-cyan": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(224, 247, 250, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-blue": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(227, 242, 253, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-green": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(233, 244, 244, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-lime": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(249, 251, 231, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-orange": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(255, 243, 224, var(--bg-opacity))"
+		},
+		"bg-surfaceColor-yellow": {
+			"--bg-opacity": 1,
+			"backgroundColor": "rgba(255, 253, 231, var(--bg-opacity))"
 		},
 		"border-primaryColor-100": {
 			"--border-opacity": 1,
@@ -1154,69 +941,6 @@
 			"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
 			"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
 			"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
-		},
-		"border-surfaceColor-white": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 255, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 255, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 255, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 255, 255, var(--border-opacity))"
-		},
-		"border-surfaceColor-teal": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(224, 242, 241, var(--border-opacity))",
-			"borderRightColor": "rgba(224, 242, 241, var(--border-opacity))",
-			"borderBottomColor": "rgba(224, 242, 241, var(--border-opacity))",
-			"borderLeftColor": "rgba(224, 242, 241, var(--border-opacity))"
-		},
-		"border-surfaceColor-red": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 235, 238, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 235, 238, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 235, 238, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 235, 238, var(--border-opacity))"
-		},
-		"border-surfaceColor-cyan": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(224, 247, 250, var(--border-opacity))",
-			"borderRightColor": "rgba(224, 247, 250, var(--border-opacity))",
-			"borderBottomColor": "rgba(224, 247, 250, var(--border-opacity))",
-			"borderLeftColor": "rgba(224, 247, 250, var(--border-opacity))"
-		},
-		"border-surfaceColor-blue": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(227, 242, 253, var(--border-opacity))",
-			"borderRightColor": "rgba(227, 242, 253, var(--border-opacity))",
-			"borderBottomColor": "rgba(227, 242, 253, var(--border-opacity))",
-			"borderLeftColor": "rgba(227, 242, 253, var(--border-opacity))"
-		},
-		"border-surfaceColor-green": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(233, 244, 244, var(--border-opacity))",
-			"borderRightColor": "rgba(233, 244, 244, var(--border-opacity))",
-			"borderBottomColor": "rgba(233, 244, 244, var(--border-opacity))",
-			"borderLeftColor": "rgba(233, 244, 244, var(--border-opacity))"
-		},
-		"border-surfaceColor-lime": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(249, 251, 231, var(--border-opacity))",
-			"borderRightColor": "rgba(249, 251, 231, var(--border-opacity))",
-			"borderBottomColor": "rgba(249, 251, 231, var(--border-opacity))",
-			"borderLeftColor": "rgba(249, 251, 231, var(--border-opacity))"
-		},
-		"border-surfaceColor-orange": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 243, 224, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 243, 224, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 243, 224, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 243, 224, var(--border-opacity))"
-		},
-		"border-surfaceColor-yellow": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(255, 253, 231, var(--border-opacity))",
-			"borderRightColor": "rgba(255, 253, 231, var(--border-opacity))",
-			"borderBottomColor": "rgba(255, 253, 231, var(--border-opacity))",
-			"borderLeftColor": "rgba(255, 253, 231, var(--border-opacity))"
 		},
 		"border-positiveColor": {
 			"--border-opacity": 1,
@@ -1365,42 +1089,6 @@
 			"--placeholder-opacity": 1,
 			"color": "rgba(1, 135, 134, var(--placeholder-opacity))"
 		},
-		"placeholder-surfaceColor-white::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 255, 255, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-teal::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(224, 242, 241, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-red::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 235, 238, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-cyan::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(224, 247, 250, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-blue::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(227, 242, 253, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-green::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(233, 244, 244, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-lime::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(249, 251, 231, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-orange::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 243, 224, var(--placeholder-opacity))"
-		},
-		"placeholder-surfaceColor-yellow::placeholder": {
-			"--placeholder-opacity": 1,
-			"color": "rgba(255, 253, 231, var(--placeholder-opacity))"
-		},
 		"placeholder-positiveColor::placeholder": {
 			"--placeholder-opacity": 1,
 			"color": "rgba(6, 167, 125, var(--placeholder-opacity))"
@@ -1500,42 +1188,6 @@
 			"--text-opacity": 1,
 			"color": "rgba(1, 135, 134, var(--text-opacity))"
 		},
-		"text-surfaceColor-white": {
-			"--text-opacity": 1,
-			"color": "rgba(116, 136, 152, var(--text-opacity))"
-		},
-		"text-surfaceColor-teal": {
-			"--text-opacity": 1,
-			"color": "rgba(38, 166, 154, var(--text-opacity))"
-		},
-		"text-surfaceColor-red": {
-			"--text-opacity": 1,
-			"color": "rgba(239, 83, 80, var(--text-opacity))"
-		},
-		"text-surfaceColor-cyan": {
-			"--text-opacity": 1,
-			"color": "rgba(38, 198, 218, var(--text-opacity))"
-		},
-		"text-surfaceColor-blue": {
-			"--text-opacity": 1,
-			"color": "rgba(66, 165, 245, var(--text-opacity))"
-		},
-		"text-surfaceColor-green": {
-			"--text-opacity": 1,
-			"color": "rgba(102, 187, 106, var(--text-opacity))"
-		},
-		"text-surfaceColor-lime": {
-			"--text-opacity": 1,
-			"color": "rgba(212, 225, 87, var(--text-opacity))"
-		},
-		"text-surfaceColor-orange": {
-			"--text-opacity": 1,
-			"color": "rgba(255, 167, 38, var(--text-opacity))"
-		},
-		"text-surfaceColor-yellow": {
-			"--text-opacity": 1,
-			"color": "rgba(255, 238, 88, var(--text-opacity))"
-		},
 		"text-positiveColor": {
 			"--text-opacity": 1,
 			"color": "rgba(6, 167, 125, var(--text-opacity))"
@@ -1610,6 +1262,46 @@
 		"text-onSurfaceColor-200": {
 			"--text-opacity": 1,
 			"color": "rgba(33, 65, 104, var(--text-opacity))"
+		},
+		"text-surfaceColor-primary": {
+			"--text-opacity": 1,
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
+		},
+		"text-surfaceColor-white": {
+			"--text-opacity": 1,
+			"color": "rgba(116, 136, 152, var(--text-opacity))"
+		},
+		"text-surfaceColor-teal": {
+			"--text-opacity": 1,
+			"color": "rgba(38, 166, 154, var(--text-opacity))"
+		},
+		"text-surfaceColor-red": {
+			"--text-opacity": 1,
+			"color": "rgba(239, 83, 80, var(--text-opacity))"
+		},
+		"text-surfaceColor-cyan": {
+			"--text-opacity": 1,
+			"color": "rgba(38, 198, 218, var(--text-opacity))"
+		},
+		"text-surfaceColor-blue": {
+			"--text-opacity": 1,
+			"color": "rgba(66, 165, 245, var(--text-opacity))"
+		},
+		"text-surfaceColor-green": {
+			"--text-opacity": 1,
+			"color": "rgba(102, 187, 106, var(--text-opacity))"
+		},
+		"text-surfaceColor-lime": {
+			"--text-opacity": 1,
+			"color": "rgba(212, 225, 87, var(--text-opacity))"
+		},
+		"text-surfaceColor-orange": {
+			"--text-opacity": 1,
+			"color": "rgba(255, 167, 38, var(--text-opacity))"
+		},
+		"text-surfaceColor-yellow": {
+			"--text-opacity": 1,
+			"color": "rgba(255, 238, 88, var(--text-opacity))"
 		},
 		"text-onBackgroundColor": {
 			"--text-opacity": 1,
