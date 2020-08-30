@@ -564,6 +564,12 @@
 	"text-xl": {
 		"fontSize": 18
 	},
+	"text-xxl": {
+		"fontSize": 22
+	},
+	"text-xxxl": {
+		"fontSize": 24
+	},
 	"leading-3": {
 		"lineHeight": 12
 	},
