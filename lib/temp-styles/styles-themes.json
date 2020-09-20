@@ -525,6 +525,9 @@
 			"--text-opacity": 1,
 			"color": "rgba(26, 32, 44, var(--text-opacity))"
 		},
+		"text-disabledColor": {
+			"color": "rgba(0,0,0,.2)"
+		},
 		"text-onSurfaceColor-100": {
 			"--text-opacity": 1,
 			"color": "rgba(116, 136, 152, var(--text-opacity))"
@@ -584,9 +587,6 @@
 		"text-onSecondaryColor": {
 			"--text-opacity": 1,
 			"color": "rgba(33, 65, 104, var(--text-opacity))"
-		},
-		"text-disabledColor": {
-			"color": "rgba(0,0,0,.2)"
 		}
 	},
 	"light": {
