@@ -590,68 +590,19 @@
 		}
 	},
 	"light": {
-		"divide-primaryColor-100 > :not(template) ~ :not(template)": {
+		"divide-primaryColor > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
-			"borderTopColor": "rgba(184, 229, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(184, 229, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(184, 229, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(184, 229, 255, var(--divide-opacity))"
+			"borderTopColor": "rgba(52, 144, 220, var(--divide-opacity))",
+			"borderRightColor": "rgba(52, 144, 220, var(--divide-opacity))",
+			"borderBottomColor": "rgba(52, 144, 220, var(--divide-opacity))",
+			"borderLeftColor": "rgba(52, 144, 220, var(--divide-opacity))"
 		},
-		"divide-primaryColor-200 > :not(template) ~ :not(template)": {
+		"divide-secondaryColor > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
-			"borderTopColor": "rgba(138, 209, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(138, 209, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(138, 209, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(138, 209, 255, var(--divide-opacity))"
-		},
-		"divide-primaryColor-300 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(92, 187, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(92, 187, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(92, 187, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(92, 187, 255, var(--divide-opacity))"
-		},
-		"divide-primaryColor-400 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(52, 163, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(52, 163, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(52, 163, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(52, 163, 255, var(--divide-opacity))"
-		},
-		"divide-primaryColor-500 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(16, 137, 255, var(--divide-opacity))",
-			"borderRightColor": "rgba(16, 137, 255, var(--divide-opacity))",
-			"borderBottomColor": "rgba(16, 137, 255, var(--divide-opacity))",
-			"borderLeftColor": "rgba(16, 137, 255, var(--divide-opacity))"
-		},
-		"divide-primaryColor-600 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(0, 116, 224, var(--divide-opacity))",
-			"borderRightColor": "rgba(0, 116, 224, var(--divide-opacity))",
-			"borderBottomColor": "rgba(0, 116, 224, var(--divide-opacity))",
-			"borderLeftColor": "rgba(0, 116, 224, var(--divide-opacity))"
-		},
-		"divide-primaryColor-700 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(0, 96, 193, var(--divide-opacity))",
-			"borderRightColor": "rgba(0, 96, 193, var(--divide-opacity))",
-			"borderBottomColor": "rgba(0, 96, 193, var(--divide-opacity))",
-			"borderLeftColor": "rgba(0, 96, 193, var(--divide-opacity))"
-		},
-		"divide-secondaryColor-100 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(1, 135, 134, var(--divide-opacity))",
-			"borderRightColor": "rgba(1, 135, 134, var(--divide-opacity))",
-			"borderBottomColor": "rgba(1, 135, 134, var(--divide-opacity))",
-			"borderLeftColor": "rgba(1, 135, 134, var(--divide-opacity))"
-		},
-		"divide-secondaryColor-200 > :not(template) ~ :not(template)": {
-			"--divide-opacity": 1,
-			"borderTopColor": "rgba(1, 135, 134, var(--divide-opacity))",
-			"borderRightColor": "rgba(1, 135, 134, var(--divide-opacity))",
-			"borderBottomColor": "rgba(1, 135, 134, var(--divide-opacity))",
-			"borderLeftColor": "rgba(1, 135, 134, var(--divide-opacity))"
+			"borderTopColor": "rgba(255, 237, 74, var(--divide-opacity))",
+			"borderRightColor": "rgba(255, 237, 74, var(--divide-opacity))",
+			"borderBottomColor": "rgba(255, 237, 74, var(--divide-opacity))",
+			"borderLeftColor": "rgba(255, 237, 74, var(--divide-opacity))"
 		},
 		"divide-positiveColor > :not(template) ~ :not(template)": {
 			"--divide-opacity": 1,
@@ -763,6 +714,20 @@
 			"borderRightColor": "rgba(26, 32, 44, var(--divide-opacity))",
 			"borderBottomColor": "rgba(26, 32, 44, var(--divide-opacity))",
 			"borderLeftColor": "rgba(26, 32, 44, var(--divide-opacity))"
+		},
+		"divide-dangerColor > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(227, 52, 47, var(--divide-opacity))",
+			"borderRightColor": "rgba(227, 52, 47, var(--divide-opacity))",
+			"borderBottomColor": "rgba(227, 52, 47, var(--divide-opacity))",
+			"borderLeftColor": "rgba(227, 52, 47, var(--divide-opacity))"
+		},
+		"divide-normalColor > :not(template) ~ :not(template)": {
+			"--divide-opacity": 1,
+			"borderTopColor": "rgba(203, 213, 224, var(--divide-opacity))",
+			"borderRightColor": "rgba(203, 213, 224, var(--divide-opacity))",
+			"borderBottomColor": "rgba(203, 213, 224, var(--divide-opacity))",
+			"borderLeftColor": "rgba(203, 213, 224, var(--divide-opacity))"
 		},
 		"bg-primaryColor-100": {
 			"--bg-opacity": 1,
@@ -915,68 +880,19 @@
 			"--bg-opacity": 1,
 			"backgroundColor": "rgba(243, 10, 73, var(--bg-opacity))"
 		},
-		"border-primaryColor-100": {
+		"border-primaryColor": {
 			"--border-opacity": 1,
-			"borderTopColor": "rgba(184, 229, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(184, 229, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(184, 229, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(184, 229, 255, var(--border-opacity))"
+			"borderTopColor": "rgba(52, 144, 220, var(--border-opacity))",
+			"borderRightColor": "rgba(52, 144, 220, var(--border-opacity))",
+			"borderBottomColor": "rgba(52, 144, 220, var(--border-opacity))",
+			"borderLeftColor": "rgba(52, 144, 220, var(--border-opacity))"
 		},
-		"border-primaryColor-200": {
+		"border-secondaryColor": {
 			"--border-opacity": 1,
-			"borderTopColor": "rgba(138, 209, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(138, 209, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(138, 209, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(138, 209, 255, var(--border-opacity))"
-		},
-		"border-primaryColor-300": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(92, 187, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(92, 187, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(92, 187, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(92, 187, 255, var(--border-opacity))"
-		},
-		"border-primaryColor-400": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(52, 163, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(52, 163, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(52, 163, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(52, 163, 255, var(--border-opacity))"
-		},
-		"border-primaryColor-500": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(16, 137, 255, var(--border-opacity))",
-			"borderRightColor": "rgba(16, 137, 255, var(--border-opacity))",
-			"borderBottomColor": "rgba(16, 137, 255, var(--border-opacity))",
-			"borderLeftColor": "rgba(16, 137, 255, var(--border-opacity))"
-		},
-		"border-primaryColor-600": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(0, 116, 224, var(--border-opacity))",
-			"borderRightColor": "rgba(0, 116, 224, var(--border-opacity))",
-			"borderBottomColor": "rgba(0, 116, 224, var(--border-opacity))",
-			"borderLeftColor": "rgba(0, 116, 224, var(--border-opacity))"
-		},
-		"border-primaryColor-700": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(0, 96, 193, var(--border-opacity))",
-			"borderRightColor": "rgba(0, 96, 193, var(--border-opacity))",
-			"borderBottomColor": "rgba(0, 96, 193, var(--border-opacity))",
-			"borderLeftColor": "rgba(0, 96, 193, var(--border-opacity))"
-		},
-		"border-secondaryColor-100": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(1, 135, 134, var(--border-opacity))",
-			"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
-			"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
-			"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
-		},
-		"border-secondaryColor-200": {
-			"--border-opacity": 1,
-			"borderTopColor": "rgba(1, 135, 134, var(--border-opacity))",
-			"borderRightColor": "rgba(1, 135, 134, var(--border-opacity))",
-			"borderBottomColor": "rgba(1, 135, 134, var(--border-opacity))",
-			"borderLeftColor": "rgba(1, 135, 134, var(--border-opacity))"
+			"borderTopColor": "rgba(255, 237, 74, var(--border-opacity))",
+			"borderRightColor": "rgba(255, 237, 74, var(--border-opacity))",
+			"borderBottomColor": "rgba(255, 237, 74, var(--border-opacity))",
+			"borderLeftColor": "rgba(255, 237, 74, var(--border-opacity))"
 		},
 		"border-positiveColor": {
 			"--border-opacity": 1,
@@ -1088,6 +1004,20 @@
 			"borderRightColor": "rgba(26, 32, 44, var(--border-opacity))",
 			"borderBottomColor": "rgba(26, 32, 44, var(--border-opacity))",
 			"borderLeftColor": "rgba(26, 32, 44, var(--border-opacity))"
+		},
+		"border-dangerColor": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(227, 52, 47, var(--border-opacity))",
+			"borderRightColor": "rgba(227, 52, 47, var(--border-opacity))",
+			"borderBottomColor": "rgba(227, 52, 47, var(--border-opacity))",
+			"borderLeftColor": "rgba(227, 52, 47, var(--border-opacity))"
+		},
+		"border-normalColor": {
+			"--border-opacity": 1,
+			"borderTopColor": "rgba(203, 213, 224, var(--border-opacity))",
+			"borderRightColor": "rgba(203, 213, 224, var(--border-opacity))",
+			"borderBottomColor": "rgba(203, 213, 224, var(--border-opacity))",
+			"borderLeftColor": "rgba(203, 213, 224, var(--border-opacity))"
 		},
 		"placeholder-primaryColor-100::placeholder": {
 			"--placeholder-opacity": 1,
@@ -1298,6 +1228,10 @@
 		"text-onSurfaceColor-200": {
 			"--text-opacity": 1,
 			"color": "rgba(33, 65, 104, var(--text-opacity))"
+		},
+		"text-onSurfaceColor-300": {
+			"--text-opacity": 1,
+			"color": "rgba(199, 199, 205, var(--text-opacity))"
 		},
 		"text-surfaceColor-primary": {
 			"--text-opacity": 1,
