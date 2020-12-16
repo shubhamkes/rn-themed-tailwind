@@ -1,6 +1,6 @@
 {
     "name": "rn-themed-tailwind",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "",
     "main": "index.js",
     "bin": {
@@ -10,7 +10,8 @@
         "start": "create-theme",
         "postinstall": "npx create-theme",
         "test": "jest",
-        "prepare": "install-peers"
+        "prepare": "install-peers",
+        "prepublish": "yarn start"
     },
     "author": "Shubham Kesarwani <shubham.kesarwani89@gmail.com>",
     "license": "ISC",
